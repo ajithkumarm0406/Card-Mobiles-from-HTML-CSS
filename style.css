@@ -1,0 +1,41 @@
+ul li a{
+    text-decoration: none;
+    text-transform: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{text-align: center;}
+li {
+    list-style: none;   
+}
+.card-mbody{
+    display: flex;
+}
+ul{
+    margin-top: 20px;
+ background-color: black;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    border: solid black;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+h2{
+    color: rgb(41, 101, 233);
+}
+/* .card-mbody:hover {
+    transform: scale(1.1 , 1.1);
+}
+.card-mbody:hover > .card-mbody:not(:hover){
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
+ */
